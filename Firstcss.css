@@ -1,0 +1,120 @@
+body{background-color: #fffdf1
+}
+a {
+    font-size: small;
+    font-family: Arial;
+    background-color: #7697f5
+}
+/*Horizontal navigation tutorial from https://www.w3schools.com/CSS/css_navbar_horizontal.asp used as reference*/
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #7899f6;
+  display: flex;
+justify-content: center;
+}
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #0a1eab;
+}
+
+#pageheader h1{ 
+    background-color: #f0ca86;
+    text-align-last: center; 
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+} 
+h2 {
+    text-align-last: center; 
+    font-family: Arial;
+    padding: 0;
+    margin: 10px;
+}
+
+.welcometext{
+    border:inset 
+}
+
+#maincontent-intro {
+    font-family: Arial;
+    text-align: center;
+}
+
+.homeimage{
+    display: block;
+    width: 700px;
+    margin: auto
+}
+
+table, th, td{
+    font-family: Arial;
+    border: inset;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#maincontent-body {
+    font-family: Arial;
+    text-align: left;
+}
+
+p{
+    font-family: Arial;
+    text-align: center;
+}
+
+table, th, td{
+    font-family: Arial;
+    border: inset;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Align using flex from https://www.w3schools.com/css/css3_image_center.asp used as reference*/
+.listimage{ 
+    display: flex;
+    justify-content: left;
+    width: 800px;
+}
+
+
+.WhoITW{
+    font-family: Arial;
+    text-align:left
+}
+
+.social-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f3d891;
+  display: flex;
+justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #031277;
+}
+    
+
+.socialmedia{
+    background-color: #f480a7;
+}
+
+
+#footer{
+    text-align: center;
+}
